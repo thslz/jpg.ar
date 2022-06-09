@@ -1,1 +1,7 @@
 jpg.ar
+
+$ dig www.jpg.ar +nostats +nocomments +nocmd
+    > ;www.jpg.ar.                     IN      A
+    > www.jpg.ar.              3592    IN      CNAME   thslz.github.io.
+    > thslz.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
+    >  GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
